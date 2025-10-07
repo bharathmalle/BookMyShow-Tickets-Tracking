@@ -1,4 +1,4 @@
-# BookMyShow Scraper
+# BookMyShow Tickets Tracking
 
 A Python scraper for extracting movie showtime data, seat availability, and cinema information from BookMyShow India.
 
@@ -71,4 +71,5 @@ Change the number of cinemas to scrape:
 ```python
 cinema_containers = soup.find_all("div", class_="sc-e8nk8f-3 hStBrg")[:5]  # Change 5 to desired number
 ```
+
 
